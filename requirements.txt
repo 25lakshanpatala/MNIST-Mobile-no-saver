@@ -1,0 +1,9 @@
+streamlit==1.32.0
+streamlit-drawable-canvas==0.9.3
+torch
+scikit-learn
+pandas
+numpy
+matplotlib
+Pillow
+joblib
