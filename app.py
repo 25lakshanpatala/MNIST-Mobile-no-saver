@@ -336,11 +336,9 @@ if mode == "📱 Multi-Digit Mobile Number Scanner (.vcf)":
         stroke_width=stroke_w,
         stroke_color="#FFFFFF",
         background_color="#000000",
-        background_image=create_10_slot_background(850, 180),
         height=180,
         width=850,
         drawing_mode="freedraw",
-        return_image_data=True,
         key=f"multi_canvas_{st.session_state['multi_canvas_key']}"
     )
 
@@ -532,7 +530,6 @@ else:
                 height=240,
                 width=240,
                 drawing_mode="freedraw",
-                return_image_data=True,
                 key=f"single_canvas_{st.session_state['single_canvas_key']}"
             )
         if canvas_result.image_data is not None:
